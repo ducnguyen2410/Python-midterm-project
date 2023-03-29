@@ -12,8 +12,10 @@ def main():
         option.update()
         print(option.control)
     elif choice == 3:
-        option.loaddb()
+        option.read_data()
         print(option.control)
+    elif choice == 4:
+        option.remove_data()
 
 if __name__ == "__main__":
     main()

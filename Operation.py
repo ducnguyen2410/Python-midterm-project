@@ -80,6 +80,43 @@ class Operation:
         else:
             print("Cannot update because the database is clear. Please add product.")
 
+    def read_data(self):
+        if os.path.getsize("db.json") > 0:
+            with open("db.json", "r") as f:
+                self.control = json.load(f)
+            with open("data.txt", "w") as f_out:
+                for i in self.control:
+                    f_out.write("Category ID: " + i + "\n\n")
+                    for j in self.control[i]:
+                        f_out.write("Product ID: " + j + "\n")
+                        f_out.write("Name: " + self.control[i][j]["name"] + "\n")
+                        f_out.write("Price: " + str(self.control[i][j]["price"]) + "\n")
+                        f_out.write("Stock: " + str(self.control[i][j]["stock"]) + "\n")
+                        f_out.write("Description: " + self.control[i][j]["description"] + "\n")
+                        f_out.write("\n")
+                    f_out.write("__________________")
+        else:
+            print("The database is empty.")
+            
+    def remove_data(self):
+        if os.path.getsize("db.json") > 0:
+            with open("db.json", "r") as f:
+                self.control = json.load(f)
+            with open("rm.json", "r") as f_read:
+                rm = json.load(f_read)
+            for i in rm:
+                if i not in self.control:
+                    print("Category ID of this product is not valid.")
+                else:
+                    if rm[i] not in self.control[i]:
+                        print("The Product ID is not in this list.")
+                    else:
+                        del self.control[i][rm[i]]
+                        with open("db.json", "w") as f_write:
+                            json.dump(self.control, f_write)
+                        print("Succesfully deleted.")
+        else:
+            print("There is nothing to delete.")
         
 
 
