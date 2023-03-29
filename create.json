@@ -1,0 +1,12 @@
+{
+    "9":
+    {
+        "300000":
+        {
+            "name": "MX Master 2",
+            "price": 1000000,
+            "stock": 15,
+            "description": "Wireless"
+        }
+    }
+}

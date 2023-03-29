@@ -1,0 +1,381 @@
+{
+    "1": [
+
+       {
+          "name": "CPU Intel Core i9-10900K",
+          "id": 564624,
+          "price": 12450000,
+          "stock": 10,
+          "description": "3.70GHz Turbo Up To 5.30GHz, 10 Core 20 Thread, 20M Cache, Comet Lake-S",
+          "category_id": 1
+       },
+       {
+          "name": "CPU Intel Core i7 10700 NK",
+          "id": 394675,
+          "price": 11500000,
+          "stock": 15,
+          "description": "2.90GHz Turbo Up To 4.80GHz, 8 Core 16 Thread, 16MB Cache, LGA 1200",
+          "category_id": 1
+       },
+       {
+          "name": "CPU Intel Core i7 9700K",
+          "id": 204109,
+          "price": 10000000,
+          "stock": 15,
+          "description": "3.6GHz Turbo Up To 4.9GHz, 8 Core 8 Thread, 12MB Cache, Coffee Lake",
+          "category_id": 1
+       },
+       {
+          "name": "CPU Intel Core i5-10400F NK",
+          "id": 887026,
+          "price": 8000000,
+          "stock": 20,
+          "description": "2.9GHz turbo up to 4.3Ghz, 6 Core 12 Thread ",
+          "category_id": 1
+       },
+       {
+          "name": "CPU Intel Core i5 10400",
+          "id": 318306,
+          "price": 7000000,
+          "stock": 20,
+          "description": "2.90GHz Turbo Up To 4.30GHz, 6 Core 12 Thread, 12MB Cache, LGA 1200",
+          "category_id": 1
+       }
+    ],
+    "GPU": [
+       {
+          "name": "Nvidia Quadro K6000",
+          "id": 573558,
+          "price": 9400000,
+          "stock": 10,
+          "description": "12GB GDDR5 PCIe 3.0 x16 GPU Kepler Graphics Processing Unit Video Adapter 900-52081-0050-000 699-52081-0500-200",
+          "category_id": 2
+       },
+       {
+          "name": "EVGA GeForce RTX 3090 FTW3 Ultra Gaming",
+          "id": 298799,
+          "price": 40000000,
+          "stock": 6,
+          "description": "24GB GDDR6X, iCX3 Technology, ARGB LED, Metal Backplate, 24G-P5-3987-KR",
+          "category_id": 2
+       },
+       {
+          "name": "Thermaltake LCGS AH-380 AIO Liquid Cooled CPU Gaming PC",
+          "id": 494887,  
+          "price": 48000000,
+          "stock": 3,
+          "description": "(AMD RYZEN 5 3600XT 6-core, ToughRam DDR4 3600Mhz 16GB RGB Memory, RTX 3080 10GB, 1TB M.2, Win 10 Home) AHT2-B550-A38-LCS, Black",
+          "category_id": 2
+       },
+       {
+          "name": "VisionTek Radeon 7750 2GB GDDR5 6M",
+          "id": 524100,
+          "price": 6700000,
+          "stock": 12,
+          "description": "6x miniDP, 6x miniDP to HDMI Adapters) Graphics Card - 900880",
+          "category_id": 2
+       },
+       {
+          "name": "MSI Gaming GeForce RTX 2060",
+          "id": 523870,
+          "price": 1000000,
+          "stock": 9,
+          "description": "6GB GDRR6 192-bit HDMI/DP 1710 MHz Boost Clock Ray Tracing Turing Architecture VR Ready Graphics Card (RTX 2060 Ventus GP OC",
+          "category_id": 2
+       }
+    ],
+    "PSU": [
+       {
+          "name": "Cooler Master Elite V3 PC700 ",
+          "id": 733722,
+          "price": 800000,
+          "stock": 12,
+          "description": "700W, Standard, Non Modular",
+          "category_id": 3
+       },
+       {
+          "name": "Cooler Master Elite PC600 V3",
+          "id": 407827,
+          "price": 800000,
+          "stock": 1,
+          "description": "600W, Standard, Non Modular",
+          "category_id": 3
+       },
+       {
+          "name": "Raidmax RX-350XT",
+          "id": 913155,
+          "price": 500000,
+          "stock": 13,
+          "description": "350W, 80 Plus, Non Modular",
+          "category_id": 3
+       },
+       {
+          "name": "Xigmatek X-Power II 450 EN41954",
+          "id": 153427,
+          "price": 600000,
+          "stock": 14,
+          "description": "400W, 80 Plus, Non Modular",
+          "category_id": 3
+       },
+       {
+          "name": "Cooler Master MWE 750 White V2",
+          "id": 368420,
+          "price": 1450000,
+          "stock": 17,
+          "description": "750W, 80Plus, Non Modular",
+          "category_id": 3
+       }
+    ],
+    "Ram": [
+       {
+          "name": "Ram Corsair Vengeance RGB PRO",
+          "id": 405372,
+          "price": 2950000,
+          "stock": 10,
+          "description": "2x8GB, DDR4, 3200 MHz",
+          "category_id": 4
+       },
+       {
+          "name": "Ram GSkill TRIDENT Z NEO",
+          "id": 206625,
+          "price": 3050000,
+          "stock": 30,
+          "description": "2X8GB, DDR4, 3600 MHz",
+          "category_id": 4
+       },
+       {
+          "name": "Ram Corsair Dominator Platinum RGB",
+          "id": 714723,
+          "price": 6900000,
+          "stock": 8,
+          "description": "2x16GB, DDR4, 3200 MHz",
+          "category_id": 4
+       },
+       {
+          "name": "Ram Adata Spectrix D41",
+          "id": 545978,
+          "price": 1050000,
+          "stock": 20,
+          "description": "8GB, DDR4, 3000MHz, RGB",
+          "category_id": 4
+       },
+       {
+          "name": "Ram Samsung ECC Registered Sever Menory",
+          "id": 804989,
+          "price": 1050000,
+          "stock": 18,
+          "description": "32GB, DDR4, 2400T MHz",
+          "category_id": 4
+       }
+    ],
+    "Main": [
+       {
+          "name": "Mainboard ASROCK H410M-HDV",
+          "id": 967564,
+          "price": 1600000,
+          "stock": 5,
+          "description": "Intel H410, LGA 1200, ATX, 2 Khe Cắm Ram DDR4",
+          "category_id": 5
+       },
+       {
+          "name": "Mainboard HUANANZHI X99 - 8M Gaming",
+          "id": 108835,
+          "price": 1700000,
+          "stock": 2,
+          "description": "Intel X99, LGA 2011-3, ATX, 2 Khe Cắm Ram DDR3",
+          "category_id": 5
+       },
+       {
+          "name": "Mainboard HUANANZHI X99-T8D",
+          "id": 594939,
+          "price": 3150000,
+          "stock": 1,
+          "description": "Intel X99, LGA 2011-3, E-ATX, 8 DDR3 Ram Slots",
+          "category_id": 5
+       },
+       {
+          "name": "Mainboard ASUS Z10PE-D16 WS",
+          "id": 373539,
+          "price": 2000000,
+          "stock": 6,
+          "description": "Intel® C612 PCH, LGA 2011-3 kép, ATX, 4 Ram Slots",
+          "category_id": 5
+       },
+       {
+          "name": "Mainboard ASUS ROG STRIX X570-E GAMING",
+          "id": 185889,
+          "price": 4000000,
+          "stock": 5,
+          "description": "AMD X570, AM4, ATX, 4 khe RAM DDR4",
+          "category_id": 5
+       }
+    ],
+    "Fans": [
+       {
+          "name": "Case WM-STAR V7",
+          "id": 406478,
+          "price": 100000,
+          "stock": 12,
+          "description": "RGB",
+          "category_id": 6
+       },
+       {
+          "name": "Aigo ICY T240",
+          "id": 579546,
+          "price": 120000,
+          "stock": 23,
+          "description": "RGB",
+          "category_id": 6
+       },
+       {
+          "name": "VSP Cooler Master T410i",
+          "id": 761491,
+          "price": 450000,
+          "stock": 200,
+          "description": "Led RGB",
+          "category_id": 6
+       },
+       {
+          "name": "Corsair H115i Platinum RGB",
+          "id": 319558,
+          "price": 600000,
+          "stock": 16,
+          "description": "Compatible socket Intel 115x, Intel 2011/2066, AMD AM3/AM2, AMD AM4, AMD TR4",
+          "category_id": 6
+       },
+       {
+          "name": "Cooler Master ML360L V2 ARGB",
+          "id": 882652,
+          "price": 2450000,
+          "stock": 4,
+          "description": "New SickleFlow 120 RGB fan",
+          "category_id": 6
+       }
+    ],
+    "Monior": [
+       {
+          "name": "BenQ - PD2700U",
+          "id": 937384,
+          "price": 11700000,
+          "stock": 20,
+          "description": "DesignVue 27 inch IPS LED 4K UHD 60Hz Monitor AQCOLOR Technology 100% sRGB (DisplayPort, Mini DisplayPort, HDMI) - Black",
+          "category_id": 7
+       },
+       {
+          "name": "Samsung - 28 inch",
+          "id": 445613,
+          "price": 5800000,
+          "stock": 12,
+          "description": "ViewFinity UHD IPS AMD FreeSync with HDR Monitor - Black",
+          "category_id": 7
+       },
+       {
+          "name": "LG - 27 inch UltraGear UHD",
+          "id": 894032,
+          "price": 15200000,
+          "stock": 26,
+          "description": "Nano IPS 1ms 144Hz Monitor with NVIDIA G-SYNC Compatible with AMD FreeSync Premium Pro - Black",
+          "category_id": 7
+       },
+       {
+          "name": "Dell - UltraSharp 27 inch LCD 4K UHD Monitor",
+          "id": 360869,
+          "price": 13700000,
+          "stock": 2,
+          "description": "DisplayPort, USB, HDMI) - Black, Silver",
+          "category_id": 7
+       },
+       {
+          "name": "Samsung - Odyssey G7 28 inch 4K UHD IPS",
+          "id": 448753,
+          "price": 18800000,
+          "stock": 4,
+          "description": "FreeSync Premium Pro & G-Sync Compatible Smart Gaming Monitor - Black",
+          "category_id": 7
+       }
+    ],
+    "SSD": [
+       {
+          "name": "SSD AGI 120GB Sata AI138 New",
+          "id": 235283,
+          "price": 450000,
+          "stock": 90,
+          "description": "None",
+          "category_id": 8
+       },
+       {
+          "name": "SSD Kingston SA400S37",
+          "id": 171858,
+          "price": 850000,
+          "stock": 30,
+          "description": "A400, 240GB, 2.5 inch, Sata III",
+          "category_id": 8
+       },
+       {
+          "name": "Gigabyte 480GB Sata 3",
+          "id": 275952,
+          "price": 1300000,
+          "stock": 6,
+          "description": "Capacity: 480GB Size: 2.5 inch",
+          "category_id": 8
+       },
+       {
+          "name": "SSD Lexar NS100",
+          "id": 275952,
+          "price": 400000,
+          "stock": 40,
+          "description": "128GB, 2.5-Inch, SATA III",
+          "category_id": 8
+       },
+       {
+          "name": "SSD Samsung 970 EVO Plus, 500GB, M.2 PCIe NVMe",
+          "id": 301336,
+          "price": 2300000,
+          "stock": 3,
+          "description": "Samsung's premium SSD for professional users",
+          "category_id": 8
+       }
+    ],
+    "Peripherals": [
+       {
+          "name": "Dareu EM908 computer mouse",
+          "id": 461894,
+          "price": 350000,
+          "stock": 40,
+          "description": "New 6000DPI gaming sensor eye. The maximum speed is up to 150ips, ensuring accuracy.",
+          "category_id": 9
+       },
+       {
+          "name": "Logitech G304 LIGHTSPEED Wireless computer mouse",
+          "id": 992575,
+          "price": 900000,
+          "stock": 8,
+          "description": "Resolution: 12000DPI. Maximum acceleration: 40G. Maximum speed: 400IPS",
+          "category_id": 9
+       },
+       {
+          "name": "GNET LK718 mechanical keyboard",
+          "id": 968709,
+          "price": 700000,
+          "stock": 16,
+          "description": "Led keyboard 12 effects, Led border 8 effects.",
+          "category_id": 9
+       },
+       {
+          "name": "Fuhlen M87s RGB Red Switch mechanical keyboard",
+          "id": 224522,
+          "price": 650000,
+          "stock": 14,
+          "description": "Connection: Wired USB - Black",
+          "category_id": 9
+       },
+       {
+          "name": "Corsair K68 RGB Red Switch mechanical keyboard",
+          "id": 503533,
+          "price": 2290000,
+          "stock": 3,
+          "description": "Color: Black. Switch type: Cherry. Communication standard: USB",
+          "category_id": 9
+       }
+    ]
+ }
