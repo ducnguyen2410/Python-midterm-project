@@ -9,7 +9,6 @@ def create_data(new_object):
     else:
         control = {}
     check_id = []
-    check = False
     for i in control:
         for j in control[i]:
             check_id.append(j)
